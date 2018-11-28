@@ -1,0 +1,41 @@
+.first-section {
+  padding-left: $mobile-offset;
+  padding-right: $mobile-offset;
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-family: $roboto-condensed;
+    font-weight: 300;
+    font-size: 4.8rem;
+    line-height: 5rem;
+    color: $midnight-blue;
+  }
+
+  &__top-subtitle {
+    display: block;
+    font-weight: 700;
+    color: $crimson;
+  }
+
+  &__bottom-subtitle {
+    display: block;
+  }
+
+  &__text {
+    font-family: $source-sans-pro;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: $blue-charcoal;
+
+    p {
+      margin-top: 0;
+      margin-bottom: 3rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
