@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
+const loaderUtils = require('loader-utils');
 
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -81,13 +82,6 @@ module.exports = {
             jQuery: 'jquery',
             'window.jQuery': 'jquery',
             'window.$': 'jquery'
-        }),
-        new GhPagesWebpackPlugin({
-            path: './build',
-            options: {
-                branch: 'build',
-                repo: 'git@bitbucket.org:grenysherg/woman-amway.git',
-            }
         })
     ],
 };
