@@ -2,37 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="285015ec-43e9-4ebf-80a7-496cafc97c2c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/default/isMobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/desktop-fifth-section-first-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/desktop-fifth-section-second-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/desktop-footer-first-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/desktop-intro-fourth-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/desktop-intro-third-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/desktop-second-section-fifth-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/desktop-second-section-fourth-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/desktop-second-section-second-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/desktop-third-section-second-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/desktop-third-section-third-image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/default/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/default/default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/default/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/default/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/default/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/default/mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/default/rebuildRem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/default/rebuildRem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fifth-section/fifth-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/fifth-section/fifth-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first-section/first-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/first-section/first-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fourth-section/fourth-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/fourth-section/fourth-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/fifth-section-first-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/mobile-fifth-section-first-image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intro/intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/intro/intro.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/second-section/second-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/second-section/second-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/slider/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/slider/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/third-section/third-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/third-section/third-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/Roboto-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/RobotoCondensed-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/RobotoCondensed-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/RobotoCondensed-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/RobotoCondensed-Light.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/SourceSansPro-ExtraLight.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/SourceSansPro-ExtraLight.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/SourceSansPro-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/SourceSansPro-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-fifth-section-first-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-fifth-section-first-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-fifth-section-second-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-fifth-section-second-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-fifth-section-third-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-fifth-section-third-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-footer-first-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-footer-first-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-header-first-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-header-first-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-intro-first-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-intro-first-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-intro-fourth-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-intro-fourth-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-intro-second-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-intro-second-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-intro-third-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-intro-third-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-second-section-fifth-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-second-section-fifth-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-second-section-first-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-second-section-first-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-second-section-fourth-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-second-section-fourth-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-second-section-second-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-second-section-second-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-second-section-third-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-second-section-third-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-third-section-first-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-third-section-first-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-third-section-second-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-third-section-second-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/desktop-third-section-third-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop-third-section-third-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/footer-photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/footer-photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/footer-text-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/footer-text-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/logo-amway.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo-amway.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/logo-woman.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo-woman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/mobile-fifth-section-first-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mobile-fifth-section-first-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/mobile-footer-first-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mobile-footer-first-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/mobile-header-first-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mobile-header-first-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/mobile-intro-first-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mobile-intro-first-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/mobile-intro-second-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mobile-intro-second-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/mobile-intro-third-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mobile-intro-third-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/mobile-second-section-first-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mobile-second-section-first-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/mobile-second-section-second-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mobile-second-section-second-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/mobile-second-section-third-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mobile-second-section-third-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/mobile-third-section-first-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mobile-third-section-first-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/media/SEB_7885.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/SEB_7885.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/media/SEB_7908.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/SEB_7908.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/media/SEB_7945.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/SEB_7945.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/media/SEB_8009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/SEB_8009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/media/SEB_8118.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/SEB_8118.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/media/SEB_8154.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/SEB_8154.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/media/SEB_8198.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/SEB_8198.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/media/SEB_8249.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/SEB_8249.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/media/SEB_8329.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/SEB_8329.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/media/SEB_8366.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/SEB_8366.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/media/SEB_8446.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/SEB_8446.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,92 +62,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="second-section.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/second-section/second-section.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="122" column="5" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="122" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="third-section.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/third-section/third-section.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="162" column="3" lean-forward="true" selection-start-line="112" selection-start-column="2" selection-end-line="162" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fourth-section.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fourth-section/fourth-section.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="71" column="5" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fifth-section.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fifth-section/fifth-section.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="143" column="19" lean-forward="true" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/footer/footer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="115" column="5" lean-forward="true" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/default/default.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/default/default.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="desktop-footer-first-image.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/desktop-footer-first-image.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="desktop-fifth-section-third-image.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/desktop-fifth-section-third-image.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="first-section.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/first-section/first-section.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -180,13 +115,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
@@ -207,90 +137,6 @@
               <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
               <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fifth-section" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="first-section" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-              <item name="Roboto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="footer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fourth-section" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="intro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="second-section" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="slider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woman_amway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woman_amway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="third-section" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -304,17 +150,18 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/build" />
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src/slider" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/fonts" />
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/src/fonts/SourceSansPro" />
       <recent name="$PROJECT_DIR$/src/fonts/RobotoCondensed" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/images" />
-      <recent name="$PROJECT_DIR$/src/slider" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -344,7 +191,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -352,11 +198,10 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.328877" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.328877" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.328877" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -367,6 +212,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.328877" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,29 +222,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/images/footer-photo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/mobile-intro-second-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/mobile-intro-third-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/mobile-intro-second-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/mobile-intro-third-image.png" />
+    <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/images/fifth-section-first-image.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -423,110 +250,34 @@
     <entry file="file://$PROJECT_DIR$/media/SEB_7908.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="79" column="35" lean-forward="true" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js" />
     <entry file="file://$PROJECT_DIR$/media/SEB_8009.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/media/SEB_7885.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-header-first-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/default/isMobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-menu-line.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-intro-second-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-intro-fourth-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/default/rebuildRem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-intro-first-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-intro-third-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/header/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="289" column="24" lean-forward="true" selection-start-line="289" selection-start-column="24" selection-end-line="289" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-second-section-first-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/default/mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/default/fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/intro/intro.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="187" column="15" lean-forward="true" selection-start-line="187" selection-start-column="15" selection-end-line="187" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-second-section-third-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-second-section-second-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-second-section-fourth-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-second-section-fifth-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-third-section-first-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-third-section-second-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-third-section-third-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/slider/slider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-header-first-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/default/isMobile.js" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-menu-line.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-intro-second-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-intro-fourth-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/default/rebuildRem.js" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-intro-first-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-intro-third-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/header/header.scss" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-second-section-first-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/default/mixins.scss" />
+    <entry file="file://$PROJECT_DIR$/src/default/fonts.scss" />
+    <entry file="file://$PROJECT_DIR$/src/intro/intro.scss" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-second-section-third-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-second-section-second-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-second-section-fourth-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-second-section-fifth-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-third-section-first-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-third-section-second-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-third-section-third-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/slider/slider.scss" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -534,78 +285,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/second-section/second-section.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="122" column="5" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="122" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/mobile-fifth-section-first-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-fifth-section-second-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-fifth-section-first-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/first-section/first-section.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fourth-section/fourth-section.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/third-section/third-section.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="162" column="3" lean-forward="true" selection-start-line="112" selection-start-column="2" selection-end-line="162" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-fifth-section-third-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fifth-section/fifth-section.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="143" column="19" lean-forward="true" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/desktop-footer-first-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/footer/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="115" column="5" lean-forward="true" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/default/default.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/default/default.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/second-section/second-section.scss" />
+    <entry file="file://$PROJECT_DIR$/src/images/mobile-fifth-section-first-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-fifth-section-second-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-fifth-section-first-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/first-section/first-section.scss" />
+    <entry file="file://$PROJECT_DIR$/src/fourth-section/fourth-section.scss" />
+    <entry file="file://$PROJECT_DIR$/src/third-section/third-section.scss" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-fifth-section-third-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/fifth-section/fifth-section.scss" />
+    <entry file="file://$PROJECT_DIR$/src/images/desktop-footer-first-image.png" />
+    <entry file="file://$PROJECT_DIR$/src/footer/footer.scss" />
+    <entry file="file://$PROJECT_DIR$/src/default/default.js" />
+    <entry file="file://$PROJECT_DIR$/src/default/default.scss" />
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
