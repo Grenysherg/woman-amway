@@ -1,5 +1,15 @@
+$roboto: "Roboto";
 $roboto-condensed: "RobotoCondensed";
 $source-sans-pro: "SourceSansPro";
+
+/* Roboto */
+
+@font-face {
+  font-family: $roboto;
+  src: url("./fonts/Roboto/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
 
 /* RobotoCondensed */
 
@@ -16,28 +26,6 @@ $source-sans-pro: "SourceSansPro";
   font-weight: 700;
   font-style: normal;
 }
-
-//@font-face {
-//  font-family: $roboto;
-//  src: url('./fonts/Roboto/Roboto-Bold.woff') format('woff');
-//  font-weight: 700;
-//  font-style: normal;
-//}
-
-//@font-face {
-//  font-family: $roboto;
-//  src: url('./fonts/Roboto/Roboto-Medium.woff') format('woff');
-//  font-weight: 500;
-//  font-style: normal;
-//}
-//
-//@font-face {
-//  font-family: $roboto;
-//  src: url('./fonts/Roboto/Roboto-Thin.woff') format('woff');
-//  font-weight: 200;
-//  font-style: normal;
-//}
-//
 
 /* SourceSansPro */
 

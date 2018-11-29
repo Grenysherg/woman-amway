@@ -1,6 +1,14 @@
 .fourth-section {
   padding-top: 3.2rem;
 
+  @include respond-to(desktop) {
+    padding-top: 55px;
+  }
+
+  @include respond-to(large-desktop) {
+    padding-top: 5.5rem;
+  }
+
   &__title {
     position: relative;
     z-index: 1;
@@ -12,6 +20,24 @@
     line-height: 5rem;
     font-weight: 700;
     color: $crimson;
+
+    @include respond-to(desktop) {
+      margin-left: auto;
+      margin-right: auto;
+      width: $desktop-container;
+      padding-left: $desktop-offset;
+      margin-bottom: 22px;
+      font-size: 48px;
+      line-height: 50px;
+    }
+
+    @include respond-to(large-desktop) {
+      width: $large-desktop-container;
+      padding-left: $large-desktop-offset;
+      margin-bottom: 2.2rem;
+      font-size: 4.8rem;
+      line-height: 5rem;
+    }
   }
 
   &__first-text {
@@ -24,6 +50,26 @@
     font-size: 1.8rem;
     line-height: 2.1rem;
     color: $blue-charcoal;
+
+    @include respond-to(desktop) {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: $desktop-offset;
+      padding-right: 35px;
+      width: $desktop-container;
+      margin-bottom: 20px;
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    @include respond-to(large-desktop) {
+      padding-left: $large-desktop-offset;
+      padding-right: 3.5rem;
+      width: $large-desktop-container;
+      margin-bottom: 2rem;
+      font-size: 1.8rem;
+      line-height: 2.1rem;
+    }
   }
 
   &__second-text {
@@ -36,5 +82,23 @@
     font-size: 1.8rem;
     line-height: 2.1rem;
     color: $blue-charcoal;
+
+    @include respond-to(desktop) {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: $desktop-offset;
+      padding-right: 35px;
+      width: $desktop-container;
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    @include respond-to(large-desktop) {
+      padding-left: $large-desktop-offset;
+      padding-right: 3.5rem;
+      width: $large-desktop-container;
+      font-size: 1.8rem;
+      line-height: 2.1rem;
+    }
   }
 }

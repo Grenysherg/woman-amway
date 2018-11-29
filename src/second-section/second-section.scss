@@ -2,17 +2,61 @@
   padding-top: 65rem;
   position: relative;
 
+  @include respond-to(desktop) {
+    padding-top: 120px;
+  }
+
+  @include respond-to(large-desktop) {
+    padding-top: 12rem;
+  }
+
   &:before {
     content: "";
     position: absolute;
     top: 2rem;
     left: 0;
-    z-index: 0;
+    z-index: 1;
     width: 76.8rem;
     height: 122.9rem;
     background-image: url(./images/mobile-second-section-first-image.png);
     background-repeat: no-repeat;
     background-size: contain;
+
+    @include respond-to(desktop) {
+      top: -40px;
+      left: calc((-1600px + 100vw) / 2 + 65px);
+      width: 630px;
+      height: 603px;
+      background-image: url(./images/desktop-second-section-first-image.png);
+    }
+
+    @include respond-to(large-desktop) {
+      top: -4rem;
+      left: 6.5rem;
+      width: 63rem;
+      height: 60.3rem;
+    }
+  }
+
+  &:after {
+    @include respond-to(desktop) {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: calc((-1600px + 100vw) / 2);
+      z-index: 0;
+      width: 94px;
+      height: 231px;
+      background-image: url(./images/desktop-second-section-second-image.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    @include respond-to(large-desktop) {
+      right: 0;
+      width: 9.4rem;
+      height: 23.1rem;
+    }
   }
 
   &__title {
@@ -25,6 +69,26 @@
     font-weight: 700;
     color: $crimson;
     width: 48rem;
+
+    @include respond-to(desktop) {
+      margin-left: auto;
+      margin-right: auto;
+      width: $desktop-container;
+      padding-left: 435px;
+      padding-right: 100px;
+      margin-bottom: 55px;
+      font-size: 48px;
+      line-height: 50px;
+    }
+
+    @include respond-to(large-desktop) {
+      width: $large-desktop-container;
+      padding-left: 43.5rem;
+      padding-right: 10rem;
+      margin-bottom: 5.5rem;
+      font-size: 4.8rem;
+      line-height: 5rem;
+    }
   }
 
   &__first-text {
@@ -37,11 +101,63 @@
     font-size: 1.8rem;
     line-height: 2.1rem;
     color: $blue-charcoal;
+
+    @include respond-to(desktop) {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 435px;
+      padding-right: 20px;
+      width: $desktop-container;
+      margin-bottom: 200px;
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    @include respond-to(large-desktop) {
+      padding-left: 43.5rem;
+      padding-right: 2rem;
+      width: $large-desktop-container;
+      margin-bottom: 20rem;
+      font-size: 1.8rem;
+      line-height: 2.1rem;
+    }
   }
 
   &__slider {
     position: relative;
     margin-bottom: 3.7rem;
+
+    @include respond-to(desktop) {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 50px;
+    }
+
+    @include respond-to(large-desktop) {
+      margin-bottom: 5rem;
+    }
+
+    &:before {
+      @include respond-to(desktop) {
+        content: "";
+        position: absolute;
+        top: -350px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 0;
+        width: 1600px;
+        height: 848px;
+        background-image: url(./images/desktop-second-section-third-image.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      @include respond-to(large-desktop) {
+        top: -35rem;
+        width: 160rem;
+        height: 84.8rem;
+      }
+    }
 
     &:after {
       content: "";
@@ -54,6 +170,23 @@
       background-image: url(./images/mobile-second-section-second-image.png);
       background-repeat: no-repeat;
       background-size: contain;
+
+      @include respond-to(desktop) {
+        top: -60px;
+        left: auto;
+        right: 55px;
+        width: 176px;
+        height: 87px;
+        z-index: 0;
+        background-image: url(./images/desktop-second-section-fourth-image.png);
+      }
+
+      @include respond-to(large-desktop) {
+        top: -6rem;
+        right: 5.5rem;
+        width: 17.6rem;
+        height: 8.7rem;
+      }
     }
   }
 
@@ -70,6 +203,27 @@
     line-height: 2.1rem;
     color: $blue-charcoal;
 
+    @include respond-to(desktop) {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: $desktop-offset;
+      padding-right: 360px;
+      width: $desktop-container;
+      padding-bottom: 0;
+      margin-bottom: 40px;
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    @include respond-to(large-desktop) {
+      padding-left: $large-desktop-offset;
+      padding-right: 36rem;
+      width: $large-desktop-container;
+      margin-bottom: 4rem;
+      font-size: 1.8rem;
+      line-height: 2.1rem;
+    }
+
     &:after {
       content: "";
       position: absolute;
@@ -81,6 +235,23 @@
       background-image: url(./images/mobile-second-section-third-image.png);
       background-repeat: no-repeat;
       background-size: contain;
+
+      @include respond-to(desktop) {
+        top: -35px;
+        bottom: auto;
+        left: auto;
+        right: -60px;
+        width: 374px;
+        height: 339px;
+        background-image: url(./images/desktop-second-section-fifth-image.png);
+      }
+
+      @include respond-to(large-desktop) {
+        top: -3.5rem;
+        right: -6rem;
+        width: 37.4rem;
+        height: 33.9rem;
+      }
     }
 
     & span {
@@ -98,5 +269,24 @@
     font-size: 1.8rem;
     line-height: 2.1rem;
     color: $blue-charcoal;
+
+    @include respond-to(desktop) {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 310px;
+      padding-right: 44px;
+      width: $desktop-container;
+      padding-bottom: 0;
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    @include respond-to(large-desktop) {
+      padding-left: 31rem;
+      padding-right: 4.4rem;
+      width: $large-desktop-container;
+      font-size: 1.8rem;
+      line-height: 2.1rem;
+    }
   }
 }

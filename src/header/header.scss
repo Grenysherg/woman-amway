@@ -6,6 +6,42 @@
   background-repeat: no-repeat;
   background-size: contain;
 
+  @include respond-to(desktop) {
+    width: 100%;
+    height: 1205px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: none;
+  }
+
+  @include respond-to(large-desktop) {
+    width: 160rem;
+    height: 120.5rem;
+  }
+
+  &:before {
+    @include respond-to(desktop) {
+      content: "";
+      position: absolute;
+      top: 0;
+      z-index: 0;
+      width: 1600px;
+      height: 1908px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-image: url(./images/desktop-header-first-image.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    @include respond-to(large-desktop) {
+      width: 160rem;
+      height: 190.8rem;
+      left: 0;
+      transform: none;
+    }
+  }
+
   &__logo-amway {
     position: absolute;
     top: 9.4rem;
@@ -16,6 +52,20 @@
     background-image: url(./images/logo-amway.png);
     background-repeat: no-repeat;
     background-size: contain;
+
+    @include respond-to(desktop) {
+      top: 84px;
+      left: calc((100vw - #{$desktop-container}) / 2 + 65px);
+      width: 271px;
+      height: 92px;
+    }
+
+    @include respond-to(large-desktop) {
+      top: 8.4rem;
+      left: 37.5rem;
+      width: 27.1rem;
+      height: 9.2rem;
+    }
   }
 
   &__logo-woman {
@@ -28,6 +78,196 @@
     background-image: url(./images/logo-woman.png);
     background-repeat: no-repeat;
     background-size: contain;
+
+    @include respond-to(desktop) {
+      left: 50%;
+      transform: translateX(-50%);
+      top: 280px;
+      width: 315px;
+      height: 70px;
+    }
+
+    @include respond-to(large-desktop) {
+      top: 28rem;
+      width: 31.5rem;
+      height: 7rem;
+    }
+  }
+
+  &__nav {
+    display: none;
+
+    @include respond-to(desktop) {
+      position: absolute;
+      top: 246px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: $desktop-container;
+      height: 180px;
+      padding-left: 65px;
+      padding-right: 65px;
+      padding-top: 120px;
+      display: flex;
+      justify-content: space-between;
+
+      background-color: white;
+    }
+
+    @include respond-to(large-desktop) {
+      top: 24.6rem;
+      width: $large-desktop-container;
+      height: 18rem;
+      padding-left: 6.5rem;
+      padding-right: 6.5rem;
+      padding-top: 12rem;
+    }
+
+    &:before {
+      @include respond-to(desktop) {
+        content: "";
+        position: absolute;
+        top: 120px;
+        left: 10px;
+        width: 960px;
+        height: 2px;
+        z-index: 1;
+        background-color: #be007f;
+      }
+
+      @include respond-to(large-desktop) {
+        top: 12rem;
+        left: 1rem;
+        width: 96rem;
+      }
+    }
+  }
+
+  &__nav-item {
+    @include respond-to(desktop) {
+      position: relative;
+      z-index: 2;
+      flex-shrink: 0;
+      text-decoration: none;
+      font-family: $roboto;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 60px;
+      color: black;
+      text-transform: uppercase;
+      transition: color .15s ease-out;
+    }
+
+    @include respond-to(large-desktop) {
+      font-size: 1.6rem;
+      line-height: 6rem;
+    }
+
+    &:hover {
+      @include respond-to(desktop) {
+        color: #be007f;
+      }
+
+      &:before {
+        @include respond-to(desktop) {
+          transform: translate3d(0, 0, 0) scaleX(1.2);
+        }
+      }
+    }
+
+    &.--stars {
+      &:before {
+        @include respond-to(desktop) {
+          background-color: #ffe051;
+        }
+      }
+    }
+
+    &.--style {
+      &:before {
+        @include respond-to(desktop) {
+          background-color: #6575fe;
+        }
+      }
+    }
+
+    &.--beauty {
+      &:before {
+        @include respond-to(desktop) {
+          background-color: #ff51ca;
+        }
+      }
+    }
+
+    &.--love {
+      &:before {
+        @include respond-to(desktop) {
+          background-color: #6bdf94;
+        }
+      }
+    }
+
+    &.--psychology {
+      &:before {
+        @include respond-to(desktop) {
+          background-color: #fea984;
+        }
+      }
+    }
+
+    &.--diets {
+      &:before {
+        @include respond-to(desktop) {
+          background-color: #21bbbb;
+        }
+      }
+    }
+
+    &.--health {
+      &:before {
+        @include respond-to(desktop) {
+          background-color: #009adc;
+        }
+      }
+    }
+
+    &.--children {
+      &:before {
+        @include respond-to(desktop) {
+          background-color: #ffdd02;
+        }
+      }
+    }
+
+    &.--life {
+      &:before {
+        @include respond-to(desktop) {
+          background-color: #ec4ac1;
+        }
+      }
+    }
+
+    &.--home {
+      &:before {
+        @include respond-to(desktop) {
+          background-color: #c37eff;
+        }
+      }
+    }
+
+    &:before {
+      @include respond-to(desktop) {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        z-index: 1;
+        transform: translate3d(0, 0, 0);
+        will-change: transform;
+        transition: transform .15s ease-out;
+      }
+    }
   }
 
   &__title {
@@ -42,16 +282,38 @@
     font-size: 6rem;
     line-height: 5rem;
     color: $midnight-blue;
+
+    @include respond-to(desktop) {
+      top: 495px;
+      left: calc((100vw - #{$desktop-container}) / 2 + 65px);
+      font-size: 60px;
+      line-height: 50px;
+    }
+
+    @include respond-to(large-desktop) {
+      top: 49.5rem;
+      left: 37.5rem;
+      font-size: 6rem;
+      line-height: 5rem;
+    }
   }
 
   &__top-subtitle {
     display: block;
     font-weight: 700;
     color: $crimson;
+
+    @include respond-to(desktop) {
+      display: inline;
+    }
   }
 
   &__middle-subtitle {
     display: block;
+
+    @include respond-to(desktop) {
+      display: inline;
+    }
   }
 
   &__bottom-subtitle {

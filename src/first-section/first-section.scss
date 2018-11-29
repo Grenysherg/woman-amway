@@ -2,6 +2,20 @@
   padding-left: $mobile-offset;
   padding-right: $mobile-offset;
 
+  @include respond-to(desktop) {
+    padding-left: $desktop-offset;
+    padding-right: 90px;
+    width: $desktop-container;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @include respond-to(large-desktop) {
+    padding-left: $large-desktop-offset;
+    padding-right: 9rem;
+    width: $large-desktop-container;
+  }
+
   &__title {
     margin-top: 0;
     margin-bottom: 3rem;
@@ -10,6 +24,18 @@
     font-size: 4.8rem;
     line-height: 5rem;
     color: $midnight-blue;
+
+    @include respond-to(desktop) {
+      margin-bottom: 30px;
+      font-size: 48px;
+      line-height: 50px;
+    }
+
+    @include respond-to(large-desktop) {
+      margin-bottom: 3rem;
+      font-size: 4.8rem;
+      line-height: 5rem;
+    }
   }
 
   &__top-subtitle {
@@ -23,19 +49,22 @@
   }
 
   &__text {
+    margin-top: 0;
+    margin-bottom: 0;
     font-family: $source-sans-pro;
     font-weight: normal;
     font-size: 1.8rem;
     line-height: 2.1rem;
     color: $blue-charcoal;
 
-    p {
-      margin-top: 0;
-      margin-bottom: 3rem;
+    @include respond-to(desktop) {
+      font-size: 18px;
+      line-height: 21px;
+    }
 
-      &:last-child {
-        margin-bottom: 0;
-      }
+    @include respond-to(large-desktop) {
+      font-size: 1.8rem;
+      line-height: 2.1rem;
     }
   }
 }

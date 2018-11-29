@@ -3,6 +3,10 @@
 @import "./colors";
 
 $mobile-offset: 4rem;
+$desktop-offset: 25px;
+$desktop-container: 980px;
+$large-desktop-offset: 2.5rem;
+$large-desktop-container: 98rem;
 
 * {
   box-sizing: border-box;
@@ -23,4 +27,13 @@ body {
 .text-space {
   display: inline-block;
   width: 0.5em;
+}
+
+.b-lazy {
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+.b-loaded {
+  opacity: 1;
 }

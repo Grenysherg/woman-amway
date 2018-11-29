@@ -1,8 +1,48 @@
 .slider {
   width: 76.8rem;
 
+  @include respond-to(desktop) {
+    width: 835px;
+  }
+
+  @include respond-to(large-desktop) {
+    width: 83.5rem;
+  }
+
+  &__container {
+    position: relative;
+    z-index: 1;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      width: 100%;
+      background-color: white;
+      height: 56rem;
+
+      @include respond-to(desktop) {
+        height: 560px;
+      }
+
+      @include respond-to(large-desktop) {
+        height: 56rem;
+      }
+    }
+  }
+
   &__slide {
     height: 56rem;
+
+    @include respond-to(desktop) {
+      height: 560px;
+    }
+
+    @include respond-to(large-desktop) {
+      height: 56rem;
+    }
   }
 
   &__image {
@@ -11,7 +51,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
   }
 
   &__text {
@@ -27,12 +66,44 @@
     font-weight: 200;
     color: $rolling-stone;
 
+    @include respond-to(desktop) {
+      margin-top: 25px;
+      margin-bottom: 12px;
+      width: 644px;
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    @include respond-to(large-desktop) {
+      margin-top: 2.5rem;
+      margin-bottom: 1.2rem;
+      width: 64.4rem;
+      font-size: 1.8rem;
+      line-height: 2.1rem;
+    }
+
     &.--narrow {
       width: 61.1rem;
+
+      @include respond-to(desktop) {
+        width: 611px;
+      }
+
+      @include respond-to(large-desktop) {
+        width: 61.1rem;
+      }
     }
 
     &.--wide {
       width: 72.4rem;
+
+      @include respond-to(desktop) {
+        width: 760px;
+      }
+
+      @include respond-to(large-desktop) {
+        width: 76rem;
+      }
     }
   }
 
@@ -52,6 +123,18 @@
       font-size: 0;
       border-radius: 50%;
       transition: background-color .3s linear;
+
+      @include respond-to(desktop) {
+        width: 14px;
+        height: 14px;
+        margin-right: 6px;
+      }
+
+      @include respond-to(large-desktop) {
+        width: 1.4rem;
+        height: 1.4rem;
+        margin-right: 0.6rem;
+      }
 
       &.slick-active {
         background-color: $crimson;
