@@ -1,9 +1,35 @@
 .intro {
   position: relative;
 
-  &:after {
+  &__first-image {
+    display: none;
+
     @include respond-to(desktop) {
-      content: "";
+      display: block;
+      position: absolute;
+      top: -110px;
+      right: calc((-1600px + 100vw) / 2 + 340px);
+      width: 277px;
+      height: 346px;
+      z-index: 0;
+      background-image: url(./images/desktop-intro-first-image.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    @include respond-to(large-desktop) {
+      top: -11rem;
+      right: 34rem;
+      width: 27.7rem;
+      height: 34.6rem;
+    }
+  }
+
+  &__second-image {
+    display: none;
+
+    @include respond-to(desktop) {
+      display: block;
       position: absolute;
       left: calc((-1600px + 100vw) / 2);
       bottom: 0;
@@ -53,28 +79,6 @@
       margin-bottom: 2.4rem;
       font-size: 2.1rem;
       line-height: 2.3rem;
-    }
-
-    &:after {
-      @include respond-to(desktop) {
-        content: "";
-        position: absolute;
-        top: -110px;
-        right: 30px;
-        width: 277px;
-        height: 346px;
-        z-index: 0;
-        background-image: url(./images/desktop-intro-first-image.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-      }
-
-      @include respond-to(large-desktop) {
-        top: -11rem;
-        right: 3rem;
-        width: 27.7rem;
-        height: 34.6rem;
-      }
     }
   }
 
@@ -149,65 +153,63 @@
     @include respond-to(large-desktop) {
       padding-bottom: 4rem;
     }
+  }
 
-    &:before {
-      content: "";
-      position: absolute;
-      bottom: 8rem;
-      left: 0;
-      z-index: 1;
-      width: 5.7rem;
-      height: 18.7rem;
-      background-image: url(./images/mobile-intro-second-image.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      pointer-events: none;
+  &__slider-first-image {
+    position: absolute;
+    bottom: 8rem;
+    left: 0;
+    z-index: 1;
+    width: 5.7rem;
+    height: 18.7rem;
+    background-image: url(./images/mobile-intro-second-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
 
-      @include respond-to(desktop) {
-        z-index: 0;
-        background-image: url(./images/desktop-intro-second-image.png);
-        bottom: auto;
-        top: 64px;
-        left: -50px;
-        width: 94px;
-        height: 187px;
-      }
-
-      @include respond-to(large-desktop) {
-        top: 6.4rem;
-        left: -5rem;
-        width: 9.4rem;
-        height: 18.7rem;
-      }
+    @include respond-to(desktop) {
+      z-index: 0;
+      background-image: url(./images/desktop-intro-second-image.png);
+      bottom: auto;
+      top: 64px;
+      left: -50px;
+      width: 94px;
+      height: 187px;
     }
 
-    &:after {
-      content: "";
-      position: absolute;
-      bottom: -19rem;
-      right: 0;
-      z-index: 1;
-      width: 30.2rem;
+    @include respond-to(large-desktop) {
+      top: 6.4rem;
+      left: -5rem;
+      width: 9.4rem;
+      height: 18.7rem;
+    }
+  }
+
+  &__slider-second-image {
+    position: absolute;
+    bottom: -19rem;
+    right: 0;
+    z-index: 2;
+    width: 30.2rem;
+    height: 62.5rem;
+    background-image: url(./images/mobile-intro-third-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
+
+    @include respond-to(desktop) {
+      background-image: url(./images/desktop-intro-fourth-image.png);
+      bottom: -120px;
+      right: -330px;
+      width: 459px;
+      height: 625px;
+    }
+
+    @include respond-to(large-desktop) {
+      bottom: -12rem;
+      right: -33rem;
+      width: 45.9rem;
       height: 62.5rem;
-      background-image: url(./images/mobile-intro-third-image.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      pointer-events: none;
-
-      @include respond-to(desktop) {
-        background-image: url(./images/desktop-intro-fourth-image.png);
-        bottom: -120px;
-        right: -330px;
-        width: 459px;
-        height: 625px;
-      }
-
-      @include respond-to(large-desktop) {
-        bottom: -12rem;
-        right: -33rem;
-        width: 45.9rem;
-        height: 62.5rem;
-      }
     }
   }
 }

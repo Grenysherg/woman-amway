@@ -15,5 +15,7 @@ export default () => {
         $html.css({'font-size': `${width / TEMPLATE_WIDTH * FACTOR}px`});
     }
 
-    $html.addClass(activeClassName);
+    setTimeout(() => {
+        $('body').addClass(activeClassName);
+    }, 100)
 };

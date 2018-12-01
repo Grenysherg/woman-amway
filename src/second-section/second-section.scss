@@ -9,9 +9,7 @@
   @include respond-to(large-desktop) {
     padding-top: 12rem;
   }
-
-  &:before {
-    content: "";
+  &__first-image {
     position: absolute;
     top: 2rem;
     left: 0;
@@ -38,9 +36,11 @@
     }
   }
 
-  &:after {
+  &__second-image {
+    display: none;
+
     @include respond-to(desktop) {
-      content: "";
+      display: block;
       position: absolute;
       top: 0;
       right: calc((-1600px + 100vw) / 2);
@@ -136,57 +136,58 @@
     @include respond-to(large-desktop) {
       margin-bottom: 5rem;
     }
+  }
 
-    &:before {
-      @include respond-to(desktop) {
-        content: "";
-        position: absolute;
-        top: -350px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 0;
-        width: 1600px;
-        height: 848px;
-        background-image: url(./images/desktop-second-section-third-image.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-      }
+  &__slider-first-image {
+    display: none;
 
-      @include respond-to(large-desktop) {
-        top: -35rem;
-        width: 160rem;
-        height: 84.8rem;
-      }
-    }
-
-    &:after {
-      content: "";
+    @include respond-to(desktop) {
+      display: block;
       position: absolute;
-      bottom: 0;
-      left: 0;
-      z-index: 1;
-      width: 4rem;
-      height: 23.1rem;
-      background-image: url(./images/mobile-second-section-second-image.png);
+      top: -350px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 0;
+      width: 1600px;
+      height: 848px;
+      background-image: url(./images/desktop-second-section-third-image.png);
       background-repeat: no-repeat;
       background-size: contain;
+    }
 
-      @include respond-to(desktop) {
-        top: -60px;
-        left: auto;
-        right: 55px;
-        width: 176px;
-        height: 87px;
-        z-index: 0;
-        background-image: url(./images/desktop-second-section-fourth-image.png);
-      }
+    @include respond-to(large-desktop) {
+      top: -35rem;
+      width: 160rem;
+      height: 84.8rem;
+    }
+  }
 
-      @include respond-to(large-desktop) {
-        top: -6rem;
-        right: 5.5rem;
-        width: 17.6rem;
-        height: 8.7rem;
-      }
+  &__slider-second-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 4rem;
+    height: 23.1rem;
+    background-image: url(./images/mobile-second-section-second-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @include respond-to(desktop) {
+      top: -60px;
+      left: auto;
+      right: 55px;
+      width: 176px;
+      height: 87px;
+      z-index: 0;
+      background-image: url(./images/desktop-second-section-fourth-image.png);
+    }
+
+    @include respond-to(large-desktop) {
+      top: -6rem;
+      right: 5.5rem;
+      width: 17.6rem;
+      height: 8.7rem;
     }
   }
 
@@ -224,8 +225,12 @@
       line-height: 2.1rem;
     }
 
-    &:after {
-      content: "";
+    & span {
+      display: block;
+    }
+  }
+
+  &__second-text-image {
       position: absolute;
       bottom: 0;
       right: 0;
@@ -253,11 +258,6 @@
         height: 33.9rem;
       }
     }
-
-    & span {
-      display: block;
-    }
-  }
 
   &__third-text {
     padding-left: $mobile-offset;

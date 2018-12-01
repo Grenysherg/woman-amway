@@ -10,8 +10,7 @@
     padding-top: 7rem;
   }
 
-  &:before {
-    content: "";
+  &__first-image {
     position: absolute;
     top: 4rem;
     left: 0;
@@ -136,10 +135,13 @@
       margin-left: auto;
       margin-right: auto;
     }
+  }
 
-    &:before {
+  &__slider-first-image {
+    display: none;
+
       @include respond-to(desktop) {
-        content: "";
+        display: block;
         position: absolute;
         top: 297px;
         left: -73px;
@@ -158,5 +160,4 @@
         height: 23.1rem;
       }
     }
-  }
 }
