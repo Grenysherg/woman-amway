@@ -10,7 +10,7 @@
 
   @include respond-to(large-desktop) {
     padding-top: 3.7rem;
-    padding-bottom: 15rem;
+    padding-bottom: 20rem;
   }
 
   &__background {
@@ -225,11 +225,13 @@
 
   &__bottom {
     display: flex;
+    justify-content: center;
     position: absolute;
-    bottom: 1rem;
+    z-index: 1;
+    bottom: 1.5rem;
     left: 50%;
     transform: translateX(-50%);
-    width: 80%;
+    width: 90%;
 
     @include respond-to(desktop) {
       bottom: 20px;
@@ -240,8 +242,86 @@
     }
   }
 
+  &__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__socials-text {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-family: $source-sans-pro;
+    font-weight: normal;
+    color: #682C7D;
+
+    @include respond-to(desktop) {
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 10px;
+    }
+
+    @include respond-to(large-desktop) {
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__socials-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__social {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+
+    @include respond-to(desktop) {
+      width: 25px;
+      height: 25px;
+      margin-right: 15px;
+    }
+
+    @include respond-to(large-desktop) {
+      width: 2.5rem;
+      height: 2.5rem;
+      margin-right: 1.5rem;
+    }
+
+    &.--vk {
+      background-image: url(images/vk.svg);
+    }
+
+    &.--fb {
+      background-image: url(images/fb.svg);
+    }
+
+    &.--tw {
+      background-image: url(images/tw.svg);
+    }
+
+    &.--od {
+      background-image: url(images/od.svg);
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
   &__copyright {
-    margin-left: auto;
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    bottom: 0.5rem;
+    right: 0;
     font-size: 1.4rem;
     line-height: 1.8rem;
     font-family: $source-sans-pro;
@@ -251,6 +331,7 @@
     @include respond-to(desktop) {
       font-size: 14px;
       line-height: 18px;
+      bottom: 0;
     }
 
     @include respond-to(large-desktop) {
